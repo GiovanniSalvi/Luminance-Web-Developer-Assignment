@@ -1,0 +1,140 @@
+body {
+    max-width: 100% !important;
+    margin: 0px;
+    display: block;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+main {
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+    font-family: cursive;
+    font-style: oblique;
+    background-color: #1c2841;
+    padding: 20px;
+}
+
+.brand {
+    font-size: 3vw;
+}
+
+.brand p {
+    color: rgb(229, 244, 247);
+    font-size: 2.5vw;
+    text-align: left;
+}
+
+.section-title {
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -50px;
+    padding: 0.2px;
+    transition: ease-out;
+    animation-name: container-image-outer;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+    text-align: center;
+    background-color: rgb(4, 5, 5);
+}
+
+.queen {
+    width: 27em;
+    height: auto;
+}
+
+#container-image-outer {
+    width: auto;
+}
+
+@keyframes container-image-outer {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.05);
+    }
+}
+
+#subject {
+    margin-top: 10px;
+    text-transform: capitalize;
+    font-size: 70px;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 2px 2px whitesmoke;
+    font-weight: lighter;
+}
+
+.nav-item {
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 2vw;
+}
+
+.nav-item a:hover {
+    text-decoration: underline !important;
+}
+
+ul {
+    margin-left: 28vw;
+}
+
+.name {
+    font-family: "Lobster", cursive;
+    font-size: 25px;
+    text-align: center;
+    color: #070f25;
+}
+
+.text_info {
+    margin: 0%;
+    text-align: left;
+    font-weight: normal;
+    font-size: 1.2rem;
+    color: white;
+}
+
+.image {
+    width: auto;
+    height: 300px;
+    float: right;
+    margin: 13px;
+    font-weight: unset;
+}
+
+.section-container {
+    width: 100%;
+    min-height: 500px;
+    text-align: center;
+    padding: 40px;
+    clear: both;
+}
+
+h2 {
+    color: rgb(21 16 16 / 95%);
+    font-weight: bold;
+}
+
+#item2 {
+    background-color: white;
+}
+
+#item3 {
+    background-color: white;
+}
+
+#item4 {
+    background-color: white;
+}
+
+#item5 {
+    background-color: white;
+}
